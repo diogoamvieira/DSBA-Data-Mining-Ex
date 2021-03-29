@@ -4,4 +4,6 @@
 
 num = 123.456
 
-print()
+print('{:.2f}'.format(num))
+
+print('{:.2e}'.format(num))
